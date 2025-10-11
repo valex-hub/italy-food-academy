@@ -1,0 +1,78 @@
+/* Basic styles for Italian foods website */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d35400;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: #f7ca18;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #d35400;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(211, 84, 0, 0.08);
+}
+
+h1, h2, h3 {
+    color: #d35400;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+.food-card {
+    background: #f9e4d2;
+    border: 1px solid #d35400;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 4px rgba(211, 84, 0, 0.07);
+}
+
+.food-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background: #d35400;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 1rem;
+    border-radius: 0 0 8px 8px;
+}
